@@ -10,7 +10,7 @@ public class StringSum {
 		String num2 = "987654321";
 		
 		num1.length();
-		
+		num2.length();
 
 	}
 

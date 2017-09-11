@@ -1,4 +1,4 @@
-package nag.arvind.gudiseva;
+package nag.arvind.gudiseva.singleton;
 
 public class Employee implements Cloneable {
 	
