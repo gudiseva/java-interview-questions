@@ -1,23 +1,23 @@
 package nag.arvind.gudiseva.interfaces;
 
-public class MyInterfaceCDDemo implements MyInterfaceC, MyInterfaceD {
+public class MyInterfaceCDImpl implements MyInterfaceC, MyInterfaceD {
 
-	public MyInterfaceCDDemo() {}
+	public MyInterfaceCDImpl() {}
 
 	@Override
 	public void printMe() {
-		System.out.println("Class: MyInterfaceCDDemo | Method: printMe() |");
+		System.out.println("Class: MyInterfaceCDImpl | Method: printMe() |");
 	}
 
 	public static void main(String[] args) {
 
-		MyInterfaceCDDemo myInterfaceDemo = new MyInterfaceCDDemo();
-		myInterfaceDemo.printMe();
+		MyInterfaceCDImpl myInterfaceImpl = new MyInterfaceCDImpl();
+		myInterfaceImpl.printMe();
 		
-		MyInterfaceC myInterfaceC = new MyInterfaceCDDemo();
+		MyInterfaceC myInterfaceC = new MyInterfaceCDImpl();
 		myInterfaceC.printMe();
 		
-		MyInterfaceD myInterfaceD = new MyInterfaceCDDemo();
+		MyInterfaceD myInterfaceD = new MyInterfaceCDImpl();
 		myInterfaceD.printMe();
 
 		System.out.println("----------------------------------------------");

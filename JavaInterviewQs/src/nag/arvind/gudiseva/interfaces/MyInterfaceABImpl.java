@@ -1,8 +1,8 @@
 package nag.arvind.gudiseva.interfaces;
 
-public class MyInterfaceABDemo implements MyInterfaceA, MyInterfaceB {
+public class MyInterfaceABImpl implements MyInterfaceA, MyInterfaceB {
 
-	public MyInterfaceABDemo() {}
+	public MyInterfaceABImpl() {}
 
 	public static void main(String[] args) {
 		

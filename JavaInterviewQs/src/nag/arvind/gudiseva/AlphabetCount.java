@@ -29,6 +29,8 @@ public class AlphabetCount {
 		 * Convert String to char array without spaces
 		 * \s A whitespace character: [ \t\n\x0B\f\r]
 		 * java.util.regex.Pattern has all the predefined classes
+		 * 
+		 * Usage: replaceAll("\\s+", "") instead of replaceAll(" ", ""); replaceAll("\n", ""); replaceAll("\t", "")
 		 */
 		for(char alphabet: sentence.replaceAll("\\s+", "").toLowerCase().trim().toCharArray()){
 		

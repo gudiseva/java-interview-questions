@@ -1,12 +1,11 @@
 # Hadoop Interview Questions:
 
+## Avesta
+
 ### 1. What is Hadoop?
 
-### 2. What is RDD?
-
-### 3. What is DataFrame?
-
-### 4. What is DataSet?
+### 3. YARN as Cluster Manager.
+Answer:
 
 ### 5. What is the use of cleanup() and setup() methods in the Reducer Class of MapReduce?
 
@@ -27,3 +26,21 @@
 ### 13. Numerical Solution: String a = "123"; String b = "456"; Calculate Sum
 
 ### 14. Cassandra
+
+### 15. MapReduce Code. Hint: Use setup() and clean() methods
+Scenario:
+I have a 650MB Text File with the below data: (Note: Block Size = 64MB and Input Splits = 10)
+	custId, sales
+	------, -----
+	1, 1000
+	2, 2000
+	3, 5000
+	...
+	...
+	1000, 500
+
+Find the Top 5 CustomerId and Sales Values. 
+
+Reference: http://kamalnandan.com/hadoop/how-to-find-top-n-values-using-map-reduce/
+
+### 16. Lamda Architecture
